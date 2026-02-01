@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NFC")(type "KiCad")(uri "/home/comrade/Downloads/NT3H2111W0FHKH1_NT3H2111W0FHKH.schdoc")(options "")(descr ""))
+  (lib (name "nfc")(type "KiCad")(uri "${KIPRJMOD}/nfc.kicad_sym")(options "")(descr ""))
+  (lib (name "NFCActual")(type "KiCad")(uri "/home/comrade/Downloads/NT3H2111W0FHKH.kicad_sym")(options "")(descr ""))
+)
