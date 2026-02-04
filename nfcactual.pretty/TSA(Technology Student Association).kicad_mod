@@ -1,0 +1,56 @@
+(footprint "TSA(Technology Student Association)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "G***"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4a9fe903-ad10-4705-b0a8-210c76efa944")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "LOGO"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "93d56fde-9d2b-4e84-9a11-170a4148ece1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12187770-1c45-42a1-8518-644d2e13eb99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88436859-0e54-4830-a928-8b9d447fe74c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(embedded_fonts no)
+)
