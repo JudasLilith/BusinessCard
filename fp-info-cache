@@ -1,4 +1,4 @@
-24836347716408485
+24852280057955363
 PCM_4ms_Capacitor
 CP_Elec_5x5.3
 SMT capacitor, aluminium electrolytic, 5x5.3
@@ -98203,7 +98203,21 @@ Ultra Subminiature Basic Micro Switch D2F
 3
 3
 nfc
-624
+25X48MM_NFC_ANTENNA
+
+
+0
+3
+3
+nfc
+624Logo
+
+
+0
+0
+0
+nfc
+Kicad
 
 
 0
@@ -98224,6 +98238,20 @@ arduino
 0
 0
 nfc
+godot
+
+
+0
+0
+0
+nfc
+hyprland
+
+
+0
+0
+0
+nfc
 inventor
 
 
@@ -98232,6 +98260,41 @@ inventor
 0
 nfc
 jlcpcb
+
+
+0
+0
+0
+nfc
+klipper
+
+
+0
+0
+0
+nfc
+moon
+
+
+0
+0
+0
+nfc
+onshape
+
+
+0
+0
+0
+nfc
+python
+
+
+0
+0
+0
+nfc
+raspberrypi
 
 
 0

@@ -307,6 +307,217 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Elektuur:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "capacitor, non-polarized/bipolar"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Indicator" "+"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "V"
+				(at -0.635 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor non-polarized bipolar"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1_1"
+				(rectangle
+					(start -1.905 1.1938)
+					(end 1.905 0.4318)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.905 -0.4318)
+					(end 1.905 -1.1938)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 3.8862)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.8862)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C_1_2"
+				(polyline
+					(pts
+						(xy -1.905 0.4318) (xy 1.905 0.4318) (xy 1.905 1.4986) (xy -1.905 1.4986) (xy -1.905 0.4318) (xy -1.8034 0.5334)
+						(xy -1.8034 1.397) (xy 1.8034 1.397) (xy 1.8034 0.5334) (xy -1.8034 0.5334) (xy -1.905 0.4318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.4986) (xy 1.905 -1.4986) (xy 1.905 -0.4318) (xy -1.905 -0.4318) (xy -1.905 -1.4986)
+						(xy -1.8034 -1.397) (xy -1.8034 -0.5334) (xy 1.8034 -0.5334) (xy 1.8034 -1.397) (xy -1.8034 -1.397)
+						(xy -1.905 -1.4986)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 3.5814)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.5814)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_SparkFun-Coil:10uH_5x5mm_1.0A"
 			(pin_numbers
 				(hide yes)
@@ -794,15 +1005,93 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 147.32 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "011e6633-d0ef-4cd1-95e9-e1122b706310")
+	)
+	(junction
+		(at 147.32 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "170eb465-5e7e-455c-b326-d9016b7b7d21")
+	)
+	(junction
+		(at 142.24 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "814367e9-e8ee-43d0-bf2c-44c87d8590d3")
+	)
 	(wire
 		(pts
-			(xy 142.24 113.03) (xy 152.4 113.03)
+			(xy 147.32 123.19) (xy 142.24 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23c3d377-d1d1-45b1-b9e6-75670629f67f")
+		(uuid "063984e8-17ab-4510-93a6-337ded37968a")
+	)
+	(wire
+		(pts
+			(xy 142.24 115.57) (xy 142.24 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11385e72-219d-48f0-a28e-c1553a924e5c")
+	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 175.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b98c61f-e525-49b1-a971-907f14f02ac0")
+	)
+	(wire
+		(pts
+			(xy 147.32 113.03) (xy 142.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f60365e-692a-4963-b401-c60b921dc03b")
+	)
+	(wire
+		(pts
+			(xy 175.26 100.33) (xy 175.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3086e8ca-ee14-4513-bd44-bd54917a9f58")
+	)
+	(wire
+		(pts
+			(xy 166.37 113.03) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3649d08e-8160-44da-a27f-07d1cd1fd6a9")
+	)
+	(wire
+		(pts
+			(xy 176.53 118.11) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8cfde4-995e-4e42-9fdc-75cb4a038d92")
 	)
 	(wire
 		(pts
@@ -816,13 +1105,23 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 118.11) (xy 142.24 115.57)
+			(xy 142.24 110.49) (xy 142.24 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "555a88d9-fcb8-4603-a661-d4209ebd5a5c")
+		(uuid "ad1db377-f754-498e-9ed5-2b15f8307c97")
+	)
+	(wire
+		(pts
+			(xy 175.26 110.49) (xy 142.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc113a15-e7ff-4f60-9724-37748a4fff81")
 	)
 	(wire
 		(pts
@@ -843,6 +1142,16 @@
 			(type default)
 		)
 		(uuid "e3f6740e-7f2f-4f09-9739-df47b7b5ea6c")
+	)
+	(wire
+		(pts
+			(xy 147.32 123.19) (xy 176.53 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85993f4-bc8e-4cef-9842-d4fa3c68b5d5")
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Coil:10uH_5x5mm_1.0A")
@@ -872,7 +1181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Coil:Inductor_4.7x4.7mm"
+		(property "Footprint" "nfc:25X48MM_NFC_ANTENNA"
 			(at 142.24 105.41 0)
 			(effects
 				(font
@@ -927,6 +1236,95 @@
 			(project ""
 				(path "/3ea08817-d3b1-4822-a9a3-fd820d6f9c9b"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:C")
+		(at 147.32 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1718b07a-972a-46a4-aa9b-bd35ef6804f6")
+		(property "Reference" "C1"
+			(at 151.13 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 151.13 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Capacitor:CP_Elec_5x5.3"
+			(at 147.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, non-polarized/bipolar"
+			(at 147.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 148.59 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "V"
+			(at 147.955 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44648f56-f7bb-45d6-96ee-61c861e4a83d")
+		)
+		(pin "2"
+			(uuid "3088bbfc-6c4c-4929-89ea-fe9c70ffcca1")
+		)
+		(instances
+			(project ""
+				(path "/3ea08817-d3b1-4822-a9a3-fd820d6f9c9b"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1111,7 +1509,7 @@
 	)
 	(symbol
 		(lib_id "PCM_fab:R_1206")
-		(at 147.32 118.11 90)
+		(at 171.45 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1120,7 +1518,7 @@
 		(fields_autoplaced yes)
 		(uuid "24b46b9d-25e1-4648-89df-a11e05eedc3a")
 		(property "Reference" "R1"
-			(at 147.32 111.76 90)
+			(at 171.45 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,7 +1526,7 @@
 			)
 		)
 		(property "Value" "R_1206"
-			(at 147.32 114.3 90)
+			(at 171.45 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +1534,7 @@
 			)
 		)
 		(property "Footprint" "PCM_fab:R_1206"
-			(at 147.32 118.11 90)
+			(at 171.45 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 118.11 0)
+			(at 171.45 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +1552,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 118.11 0)
+			(at 171.45 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +1577,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-LED:LED")
-		(at 152.4 115.57 270)
+		(at 176.53 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1188,7 +1586,7 @@
 		(fields_autoplaced yes)
 		(uuid "722c4f7b-ae31-4154-be3d-e1b55f557f78")
 		(property "Reference" "D1"
-			(at 154.94 114.3634 90)
+			(at 179.07 119.4434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1595,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 154.94 116.9034 90)
+			(at 179.07 121.9834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1604,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-LED:LED_0603_1608Metric"
-			(at 147.32 115.57 0)
+			(at 171.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,7 +1613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 115.57 0)
+			(at 168.91 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,7 +1622,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 139.7 115.57 0)
+			(at 163.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1631,7 @@
 			)
 		)
 		(property "PROD_ID" "LED-"
-			(at 142.24 115.57 0)
+			(at 166.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
