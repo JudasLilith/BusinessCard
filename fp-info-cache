@@ -1,4 +1,4 @@
-24884143548271592
+24891224883171603
 PCM_4ms_Capacitor
 CP_Elec_5x5.3
 SMT capacitor, aluminium electrolytic, 5x5.3
@@ -98207,7 +98207,7 @@ nfc
 
 
 0
-3
+4
 3
 nfc
 624Logo
@@ -98223,6 +98223,20 @@ Arch
 0
 0
 0
+nfc
+C0603
+
+
+0
+2
+2
+nfc
+CAPC1608X90N
+
+
+0
+2
+2
 nfc
 CircuitPython
 
@@ -98280,6 +98294,13 @@ Kicad
 0
 0
 nfc
+LED0805-R-RD
+
+
+0
+2
+2
+nfc
 Marlin
 
 
@@ -98300,6 +98321,13 @@ QFN8P50_160X160X50L40X20N
 0
 8
 8
+nfc
+R0603
+
+
+0
+2
+2
 nfc
 RawTherapee
 

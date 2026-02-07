@@ -1269,7 +1269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:CP_Elec_5x5.3"
+		(property "Footprint" "nfc:CAPC1608X90N"
 			(at 147.32 118.11 0)
 			(effects
 				(font
@@ -1533,7 +1533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:R_1206"
+		(property "Footprint" "nfc:C0603"
 			(at 171.45 113.03 90)
 			(effects
 				(font
@@ -1603,7 +1603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "nfc:LED0805-R-RD"
 			(at 171.45 120.65 0)
 			(effects
 				(font
