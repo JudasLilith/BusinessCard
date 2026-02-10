@@ -1,5 +1,8 @@
 # Business Card Framework
 
+![Alt text](images/CoverImage.png)
+
+
 A place for people to get started on making their own PCB business card!
 
 Design originally from: https://jams.hackclub.com/jam/hacker-card
@@ -12,7 +15,7 @@ find some logos to place, or use the materials list to start new!
 
 - A antenna
 
-- A NT3
+- A NT3H2111W0FHKH NFC Chip
 
 - 220nF capacitors 
 
@@ -21,12 +24,25 @@ find some logos to place, or use the materials list to start new!
 - numerous logos
 
 ## Logos Included:
+
+![Alt text](images/swappy-20260210-151440.png)
+
+![Alt text](images/swappy-20260210-152431.png)
+
+
 These are some Logos I added inside, but please acknowledge that I had to manually add a few lines when the imports for kicad was botched & the logos might look a bit different than expected.
+(All of the logos are in the nfcactual.pretty folder)
+
+
 - Onshape
 
 - Inventor
 
+- Fusion 360
+
 - KiCad
+
+- Solidworks
 
 - Godot
 
@@ -34,26 +50,34 @@ These are some Logos I added inside, but please acknowledge that I had to manual
 
 - Klipper
 
-- marlin
+- JLCPCB
 
 - Davinci Resolve
+
+- Darktable
 
 - WPILib
 
 - ArchLinux
 
-- Debian
- 
-- Ubuntu
+- Hyprland
 
-- FRC teams
+- Debian
+
+- FRC team 624
 
 - Unity
 
 - Hack Club
 
+- NHRL
+
+- FIRST Robotics Competition
+
 
 ## where can I make my QR code?
+
+!![alt text](images/swappy-20260210-152632.png)
 
 -You can make it by pasting on this website: https://www.qr-code-generator.com/
 
@@ -79,4 +103,6 @@ Any additions that might look good, you can add an issues for it and I'll review
 
 
 
-p.s. make sure to draw the outlines, or else they look pretty janky.
+**p.s.** make sure to draw the outlines, or else they look pretty janky.
+
+## Have fun making!
