@@ -1,13 +1,13 @@
-#Business Card Framework
+# Business Card Framework
 
-A nice, place for people to get started on making their own PCB business card!
+A place for people to get started on making their own PCB business card!
 
 Design originally from: https://jams.hackclub.com/jam/hacker-card
 
 
 find some logos to place, or use the materials list to start new!
 
-#Bill of materials:
+## Bill of materials:
 (All parts are sourced from the original guide, but here's a comprehensive list)
 
 - A antenna
@@ -18,45 +18,46 @@ find some logos to place, or use the materials list to start new!
 
 - 2296C 2v LEDs
 
--numerous logos
+- numerous logos
 
-#Logos Included:
-These are some Logos I added inside, but please acknowledge that I had to manually add a few lines when the imports for kicad was botched.2
-2
--Onshape
+## Logos Included:
+These are some Logos I added inside, but please acknowledge that I had to manually add a few lines when the imports for kicad was botched & the logos might look a bit different than expected.
+- Onshape
 
--Inventor
+- Inventor
 
--KiCad
+- KiCad
 
--Godot
+- Godot
 
--Raspberry Pi
+- Raspberry Pi
 
--Klipper
+- Klipper
 
--marlin
+- marlin
 
--Davinci Resolve
+- Davinci Resolve
 
--WPILib
+- WPILib
 
--ArchLinux
+- ArchLinux
 
--Debian
+- Debian
  
--Ubuntu
--Any FRC teams
--Unity
+- Ubuntu
 
-Stuff I gotta fix:
--Hack Club 
+- FRC teams
 
-#where can I make my QR code?
+- Unity
+
+- Hack Club
+
+
+## where can I make my QR code?
 
 -You can make it by pasting on this website: https://www.qr-code-generator.com/
 
-*DISCLAIMER* I haven't tried importing this myself, so use at your own risk!
+**DISCLAIMER:** I haven't tried importing this myself, so use at your own risk!
 
 
 #alternative method
@@ -69,10 +70,13 @@ Personally, I recommend writing a link to your personal github
 Or you can make your own website and link it to the qr code
 
 
-*DISCLAMER* For beginners like me, I really wasn't able to find a way to scale the QR code to the wanted dimensions, so use with risk!
+**DISCLAMER** For beginners like me, I really wasn't able to find a way to scale the QR code to the wanted dimensions, so you might not be able to do it!
 
-make sure to draw the outlines, or else they look pretty janky!
 
 Have fun building!
-
 Any additions that might look good, you can add an issues for it and I'll review it!
+
+
+
+
+p.s. make sure to draw the outlines, or else they look pretty janky.
