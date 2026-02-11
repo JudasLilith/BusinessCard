@@ -74,6 +74,9 @@ These are some Logos I added inside, but please acknowledge that I had to manual
 
 - FIRST Robotics Competition
 
+Each logo has a length of 1 cm, exept for debian and Godot!
+
+ **Any additional Logos you want/want me to add, put them an issue and I'll update it!**
 
 ## where can I make my QR code?
 
@@ -87,7 +90,7 @@ These are some Logos I added inside, but please acknowledge that I had to manual
 #alternative method
 -Make a new footprint with create footprint
 -pick qr code wizard
-in the slots that says string value and put your URL inisde the sheet
+in the slots that says string value and put your URL inisde the sheet.
 
 
 Personally, I recommend writing a link to your personal github
