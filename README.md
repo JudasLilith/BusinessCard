@@ -106,6 +106,17 @@ Any additions that might look good, you can add an issues for it and I'll review
 
 
 
-**p.s.** make sure to draw the outlines, or else they look pretty janky.
+### After obtaining from JLCPCB:
+* Using [NFC Tools](https://nfc.software/), flash this command to initialize the NFC from factory settings:
+
+A2:03:E1:10:6D:00,A2:04:03:04:D8:00,A2:05:00:00:FE:00
+
+* Go to Other > Advanced NFC commands > I understand >
+
+
+
+**p.s:** 
+* make sure to draw the outlines, or else they look pretty janky.
+* Be sure to check the **<u>polarity on the capacitors, LED, and the orientation on the NFC Chip;</u>** they are a lot smaller than you expect it & might have a hard time fixing it!
 
 ## Have fun making!
